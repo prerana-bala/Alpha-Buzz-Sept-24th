@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1,">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Alpha Buzz</title>
+</head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="icon" type="image/png" href="image/abc-w.png">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="scroll.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/8f045748b8.js" crossorigin="anonymous"></script>
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css'>
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>
+
+        <link rel="stylesheet" href="index.css">
+<style type="text/css">
+  @media (max-width: 600px){
+  .gallery-cell img {
+    position: center;
+  }
+}
+</style>
+<body>
+<!-- Navbar-->
+        <div class="pos-f-t">
+            <div class="collapse" id="navbarToggleExternalContent">
+              <div class="p-4" style=" background-color: rgb(29, 29, 29);">
+                <div class="row">
+                    <ul class="col-md-3">
+                    What's Popular?
+                    <li><a href="pages/articles/article1.html" style="color: inherit;">item1</a></li>
+                    <li><a href="pages/articles/article1.html" style="color: inherit;">item2</a></li>
+                    <li><a href="pages/articles/article1.html"style="color: inherit;">item3</a></li>
+                    <li><a href="pages/articles/article1.html"style="color: inherit;">item4</a></li>
+                </ul>
+                    <ul class="col-md-3" >
+                    Blog Specials
+                    <li><a href="pages/Blogsp/basics101.html"style="color: inherit;">Basics 101</a></li>
+                   <li><a href="pages/Blogsp/techtuesday.html"style="color: inherit;">Tech Tuedays</a></li>
+                    <li><a href="pages/Blogsp/openingthekimono.html"style="color: inherit;">Opening the Kimono</a></li>
+                    <li><a href="pages/Blogsp/onestowatch.html"style="color: inherit;">Ones to Watch</a></li>
+                 </ul>
+                 <ul class="col-md-3" >
+                    Latest Updates
+                    <li><a href="pages/Blogsp/basics101.html"style="color: inherit;">Basics 101</a></li>
+                   <li><a href="pages/Blogsp/techtuesday.html"style="color: inherit;">Tech Tuedays</a></li>
+                    <li><a href="pages/Blogsp/openingthekimono.html"style="color: inherit;">Opening the Kimono</a></li>
+                    <li><a href="pages/Blogsp/onestowatch.html"style="color: inherit;">Ones to Watch</a></li>
+                 </ul>
+                 <ul class="col-md-3" >
+                   Latest Videos
+                    <li><a href="pages/Blogsp/basics101.html"style="color: inherit;">Basics 101</a></li>
+                   <li><a href="pages/Blogsp/techtuesday.html"style="color: inherit;">Tech Tuedays</a></li>
+                    <li><a href="pages/Blogsp/openingthekimono.html"style="color: inherit;">Opening the Kimono</a></li>
+                    <li><a href="pages/Blogsp/onestowatch.html"style="color: inherit;">Ones to Watch</a></li>
+                 </ul>
+                </div>
+              </div>
+
+            </div>
+
+            <nav class="navbar navbar-dark"style=" background-color: rgb(29, 29, 29);">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <span class="buzz">
+                <div >
+                  <img src="image/Abuzz.png" class="Abuz" >
+                </div>
+              </span>
+              <span class="navbar-text">
+                  <button class="btn btn-group btn-warning">
+                    <a data-toggle="modal" data-target="#joinmodal" style="color: black;">
+                        Join Us
+                    </a>
+                    </button>
+                </span>
+            </nav>
+          </div>
+
+          <div id="joinmodal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg" role="content">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="col-md-7">Have something to post or suggest?</h4>
+                        <button type="button" class="close" data-dismiss="modal">
+                            &times;
+                        </button>
+
+                    </div>
+                    <div class="modal-body">
+
+                        <div class="btn-group col-md-12" role="group">
+                        <a role="button" class="btn btn-warning col-md-4 mr-1" href="mailto:abc@vit.ac.in"><i class="fa fa-envelope"></i> Email</a>
+                        <br>
+                        <a role="button" class="btn btn-warning col-md-4 mr-1" href="https://www.instagram.com/alphabiocell/?hl=en"><i class="fa fa-instagram"></i> Instagram</a>
+                        <br>
+                        <a role="button" class="btn btn-warning col-md-4" href="https://www.linkedin.com/company/alpha-bio-cell"><i class="fa fa-linkedin"></i> Linked In</a>
+                        </div>
+
+                    </div>
+                </div>
+                </div>
+          </div>
+        </div>
+        <div class="container mt-4">
+           <div class="row vaw justify-content-around">
+             <div id="padd" class="col-lg-9 col-md-7">
+               <div class="row  justify-content-around pl-md-0 pr-md-4">
+                 <div id="nice" class="no yes col-lg-2 col-5 col-md-4">
+                   <h6 class="text-center py-2" style="background-color: black; border-radius: 25px; height: 35px; width:10rem;  color: #ffc107; "><a href="pages/search.html" style="color: inherit;">Technology</h6></a>
+                 </div>
+                 <div id="nice" class="yes col-lg-2 col-5 col-md-4">
+                   <h6 class="text-center py-2" style="background-color: black; border-radius: 25px; height: 35px; width:10rem; color: #ffc107; "><a href="pages/search.html" style="color: inherit;">Hackathons</h6></a>
+                 </div>
+                 <div id="nice" class="yes col-lg-2 col-5 col-md-4">
+                   <h6 class="text-center py-2" style="background-color: black; border-radius: 25px; height: 35px; width:10rem; color: #ffc107; "><a href="pages/search.html" style="color: inherit;">Designing</h6></a>
+                 </div>
+                 <div id="nice" class="vansh yes col-lg-2 col-md-4 col-5 pt-md-3 pt-lg-0">
+                   <h6 class="text-center py-2" style="background-color: black; border-radius: 25px; height: 35px; width:10rem; color: #ffc107; "><a href="pages/search.html" style="color: inherit;">Interviews</h6></a>
+                 </div>
+                 <div id="nice" class="vansh yes col-lg-2 col-md-4 col-5 pt-md-3 pt-lg-0">
+                   <h6 class="text-center py-2" style="background-color: black; border-radius: 25px; height: 35px; width:10rem; color: #ffc107; "><a href="pages/search.html" style="color: inherit;">Interviews</h6></a>
+                 </div>
+
+               </div>
+             </div>
+             <div class="col-lg-3 col-9 pt-md-3 pt-lg-0 mam">
+                       <div class="container7">
+              <input type="text" maxlength= "12"  placeholder="Search..." class="searchbar">
+              <a href="pages/search.html">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/41gYkruZM2L.png" alt="Magnifying Glass" class="button">
+              </a>
+                    </div>
+           </div>
+
+           </div>
+         </div>
+<!--latest updates-->
+<div class="blog-home3 py-5">
+  <div class="container">
+    <!-- Row  -->
+    <div class="row justify-content-center">
+      <!-- Column -->
+      <div class="col-md-8 text-center">
+          <h3 class="my-3"><strong><a href="pages/Blogsp/latest.html">Latest Updates <i class="fas fa-chevron-circle-right" aria-hidden="true"></i></a></strong></h3>
+        <h6 class="subtitle font-weight-normal">What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy What is Lorem Ipsum Lorem Ipsum is simply dummy</h6>
+      </div>
+      <!-- Column -->
+      <!-- Column -->
+    </div>
+    <div class="row mt-4">
+      <!-- Column -->
+      <div class="col-lg-6">
+        <div class="card border-0 mb-4">
+          <a href="pages/articles/article1.html"><img class="card-img-top" src="https://i.ytimg.com/vi/PCE0k6PcDcw/maxresdefault.jpg" alt="wrappixel kit"></a>
+          <div class="date-pos text-center text-white p-3 bg-success-gradiant">
+              <a href="pages/authors.html"> VAISHNAVI MANAMBAT</a> &nbsp;  2 min read</div>
+          <h3 class="font-weight-strong mt-3"><a href="pages/articles/article1.html" class="link text-decoration-none">Techonologies started to change Drastically</a></h3><br>
+          <p class="m-t-20">What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy </p>
+        </div>
+      </div>
+      <!-- Column -->
+      <div class="col-lg-6">
+        <div class="row">
+          <!-- Column -->
+          <div class="col-md-6">
+            <div class="card border-0 mb-4">
+              <a href="pages/articles/article1.html"><img class="card-img-top" src="https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__340.jpg" alt="wrappixel kit"></a>
+              <div class="date-pos text-center text-white p-3 bg-success-gradiant"> <a href="pages/authors.html"> VAISHNAVI MANAMBAT</a> <br>  2 min read</div>
+              <h6 class="font-weight-medium mt-3"><a href="pages/articles/article1.html" class="link text-decoration-none">Techonologies started to change Drastically</a></h6>
+            </div>
+          </div>
+          <!-- Column -->
+          <div class="col-md-6">
+            <div class="card border-0 mb-4">
+              <a href="pages/articles/article1.html"><img class="card-img-top" src="https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__340.jpg" alt="wrappixel kit"></a>
+              <div class="date-pos text-center text-white p-3 bg-success-gradiant"> <a href="pages/authors.html"> VAISHNAVI MANAMBAT</a> <br>  2 min read</div>
+              <h6 class="font-weight-medium mt-3"><a href="pages/articles/article1.html" class="link text-decoration-none">Techonologies started to change Drastically</a></h6>
+            </div>
+          </div>
+          <!-- Column -->
+          <div class="col-md-6">
+            <div class="card border-0 mb-4">
+              <a href="pages/articles/article1.html"><img class="card-img-top" src="https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__340.jpg" alt="wrappixel kit"></a>
+              <div class="date-pos text-center text-white p-3 bg-success-gradiant"><a href="pages/authors.html"> VAISHNAVI MANAMBAT</a> <br>  2 min read</div>
+              <h6 class="font-weight-medium mt-3"><a href="pages/articles/article1.html" class="link text-decoration-none">Techonologies started to change Drastically</a></h6>
+            </div>
+          </div>
+          <!-- Column -->
+          <div class="col-md-6">
+            <div class="card border-0 mb-4">
+              <a href="pages/articles/article1.html"><img class="card-img-top" src="https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__340.jpg" alt="wrappixel kit"></a>
+              <div class="date-pos text-center text-white p-3 bg-success-gradiant"><a href="pages/authors.html"> VAISHNAVI MANAMBAT</a> <br>  2 min read</div>
+              <h6 class="font-weight-medium mt-3"><a href="pages/articles/article1.html" class="link text-decoration-none">Techonologies started to change Drastically</a></h6>
+            </div>
+          </div>
+          <!-- Column -->
+        </div>
+      </div>
+      <!-- Column -->
+    </div>
+  </div>
+</div>
+
+<section style="background-color: #ffc107; padding: 40px; border-radius: 40px ">
+     <header class="ppp">Whats Popular</header>
+  <div class="gallery js-flickity"
+  data-flickity-options='{ "wrapAround": true }' style="height: 250px;">
+  <div class="gallery-cell" id="side1">
+        <img src="https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__340.jpg" style="width: 100%;height: 100%;" />
+        <p class="centered-1">By <a href="pages/authors.html">Vaishnavi Manambat </a><br>7 minute read</p>
+        <h1 class="centered"><a href="pages/articles/article1.html">Interact with JS</a></h2>
+
+               </div>
+               <div class="gallery-cell" id="side3">
+                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ5Hs3l-ROn-zVOQo0Si5sHh0zLnJHtS3dfCQ&usqp=CAU" style="width: 100%;height: 100%;" />
+                 <p class="centered-1">By <a href="pages/authors.html">Vaishnavi Manambat </a><br>7 minute read</p>
+                 <h1 class="centered"><a href="pages/articles/article1.html">Interact with JS</a></h1>
+               </div>
+               <div class="gallery-cell" id="side2">
+                 <img src="https://elevateservices.com/wp-content/uploads/AdobeStock_208568531.jpeg" style="width: 100%;height: 100%;" />
+                 <p class="centered-1">By <a href="pages/authors.html">Vaishnavi Manambat </a><br>7 minute read</p>
+                 <h1 class="centered"><a href="pages/articles/article1.html">Flow of money through the economy</a></h1>
+               </div>
+               <div class="gallery-cell" id="side3">
+                 <img src="https://wallpapercave.com/wp/wp4396980.png" style="width: 100%;height: 100%;" />
+                 <p class="centered-1">By <a href="pages/authors.html">Vaishnavi Manambat </a><br>7 minute read</p>
+                 <h1 class="centered"><a href="pages/articles/article1.html">How to train your dragon?</a></h1>
+               </div>
+               <div class="gallery-cell" id="side3">
+                 <img src="https://wallpapercave.com/wp/wp4396980.png" style="width: 100%;height: 100%;" />
+                 <p class="centered-1">By <a href="pages/authors.html">Vaishnavi Manambat </a><br>7 minute read</p>
+                 <h1 class="centered"><a href="pages/articles/article1.html">How to train your dragon?</a></h1>
+               </div>
+</div>
+</section>
+
+
+<div class="row" style="margin-top: 40px"></div>
+
+    </section>
+  <div class="full-box">
+        <div class="container">
+            <div class="row sc">
+                <div class="col-md-12">
+                    <section style="width: 100%;"><div class="container">
+    <h1 style="text-align: center;">Blog Specials </h1>
+    <div class="container5">
+        <div class="row cc">
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 c1">
+                <div class="container5">
+                    <div class="box1">
+                        <a href="pages/Blogsp/basics101.html"style="color: inherit;">
+                          <div class="content">
+                            <h4 > Basics <br> 101</h4>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 c2">
+                <div class="container5">
+                    <div class="box2">
+                        <a href="pages/Blogsp/techtuesday.html"style="color: inherit;">
+                          <div class="content" >
+                            <h4 > Tech <br> Tuesdays</h4>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 c3">
+                <div class="container5">
+                    <div class="box3">
+                        <a href="pages/Blogsp/openingthekimono.html"style="color: inherit; ">
+                          <div class="content" >
+                            <h4 class="op" >Opening <br>  the <br>Kimono</h4>
+                        </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 c4">
+                <div class="container5">
+                    <div class="box4">
+                      <a href="pages/Blogsp/onestowatch.html" style="color: inherit; ">
+                        <div class="content">
+                            <h4 class="op"> Ones <br>   to <br>Watch </h4>
+                        </div>
+                      </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+
+
+<section>
+  <div class="container-fluid">
+
+
+  <div class="row" style="width: 100%; margin-left: 30px; margin-top: 30px;">
+    <div class="col-lg-7 col-md-7 col-sm-6 col-xs-6" >
+                    <div class="row yt">
+                        <div class="col-12 col-md-12 col-lg-11 col-xl-12" >
+                            <h1>Latest Videos</h1><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/BmAmQct3BJc" width="560" height="315" style="width: 90%;margin: 5px; border-radius: 20px;"></iframe></div>
+                    </div>
+    </div>
+    <div class="col-lg-5 col-md-5 col-sm-6 col-xs-6" id="yut">
+                      <h1 style="text-align: center;">More Videos</h1>
+                    <div class="row">
+                        <div class="col-lg-12 text-center" style="margin-top: 10px;">
+                          <iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/BmAmQct3BJc" width="200px" height="315" style="width: 300px;height: 150px;border-radius: 20px;"></iframe>
+                          <iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/BmAmQct3BJc"width="200px" height="315" style="width: 300px;height: 150px;margin-top: 5px; border-radius: 20px;"></iframe>
+                        </div>
+                    </div>
+      </div>
+
+  </div>
+  </div>
+</section>
+<div class="row" style="height: 100px;"></div>
+
+
+
+<!--Remove stuff above this and insert content-->
+
+
+<!--Footer-->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-12 col-sm-6 footer-joinus">
+                <span class="footer-joinus-text">Have something to post or suggest?</span>
+                <a class="footer-joinus_button" href="mailto:abc@vit.ac.in">Join us</a>
+
+            </div>
+
+
+            <div class="col-12 col-sm-6 align-self-center fot ">
+                <div class="text-center">
+                    <a class="btn btn-social-icon btn-google" href="https://www.instagram.com/alphabiocell/?hl=en"><i class="fa fa-instagram fa-lg"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="https://www.facebook.com/pages/category/College---University/Alpha-Bio-Cell-2837739956251320/"><i class="fa fa-facebook fa-lg"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="https://www.linkedin.com/company/alpha-bio-cell"><i class="fa fa-linkedin fa-lg"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="http://abc-vit.in/"><i class="fa fa-home fa-lg"></i></a>
+                  </div>
+            </div>
+       </div>
+       <div class="row justify-content-center" style="margin-top: 10px;">
+            <div class="col-auto">
+                <p>© Copyright 2020 Alpha Bio Cell</p>
+            </div>
+       </div>
+    </div>
+</footer>
+
+</body>
+   <script src='https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js'></script><script  src="script.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</html>
